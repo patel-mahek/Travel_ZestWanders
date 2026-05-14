@@ -4,6 +4,8 @@ import { MapPin, Calendar, Users, ArrowRight } from 'lucide-react'
 import Link from 'next/link'
 import { ContactModal } from '@/components/contact-modal'
 
+export const dynamic = 'force-dynamic'
+
 const treks = [
   {
     id: 'fireflies-prabalmachi',
@@ -67,7 +69,6 @@ export default function Home() {
                 <p className="text-xs text-muted-foreground">Seeking New Adventures</p>
               </div>
             </div>
-            <ContactModal />
           </div>
         </div>
       </header>

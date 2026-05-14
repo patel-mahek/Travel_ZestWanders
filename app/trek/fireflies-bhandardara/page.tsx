@@ -71,8 +71,21 @@ export default function TrekDetailsPage() {
             <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
               <div className="bg-accent rounded-lg p-4 flex-1">
                 <div className="text-white">
-                  <div className="text-sm font-semibold opacity-90">Price per person</div>
-                  <div className="text-2xl sm:text-3xl font-bold">Coming Soon</div>
+                  <div className="text-sm font-semibold opacity-90 mb-2">Pricing (per person)</div>
+                  <div className="space-y-1 text-sm sm:text-base">
+                    <div className="flex items-start justify-between gap-3">
+                      <span className="font-semibold">Kasara - Kasara</span>
+                      <span className="font-bold">Rs 2199/-</span>
+                    </div>
+                    <div className="flex items-start justify-between gap-3">
+                      <span className="font-semibold">Camp (Reach campsite by your own)</span>
+                      <span className="font-bold">Rs 1699/-</span>
+                    </div>
+                    <div className="flex items-start justify-between gap-3">
+                      <span className="font-semibold">Dual Person (Select one per person)</span>
+                      <span className="font-bold">Rs 200</span>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="bg-card border border-border rounded-lg p-4 flex-1">
