@@ -380,7 +380,7 @@ export default function TrekDetailsPage() {
           >
             <div className="flex items-center gap-3 sm:gap-4 min-w-0">
               <AlertCircle className="w-6 h-6 text-destructive flex-shrink-0" />
-              <h3 className="text-lg sm:text-2xl font-bold text-foreground truncate">Important Notes & Policies</h3>
+              <h3 className="text-lg sm:text-2xl font-bold text-foreground truncate">Refund & Cancellation Policies</h3>
             </div>
             <ChevronDown className={`w-5 h-5 transition-transform flex-shrink-0 ${expandedSections.policy ? 'rotate-180' : ''}`} />
           </button>
@@ -388,105 +388,102 @@ export default function TrekDetailsPage() {
           {expandedSections.policy && (
             <div className="mt-4 bg-card rounded-xl p-4 sm:p-6 border border-border">
               <div className="space-y-3 sm:space-y-4 text-xs sm:text-sm text-muted-foreground">
-                <div className="pb-4 border-b border-border">
-                  <h4 className="text-base font-bold text-foreground mb-3">Important Note:</h4>
-                  <span>Experiencing the glow of fireflies is a captivating natural phenomenon. The ideal time to witness this spectacle typically falls between Mid May and the 1st week of June; however, its occurrence is subject to various environmental factors such as climate conditions and rainfall. Please note that Zestwanders cannot guarantee firefly sightings and shall not be held responsible if the phenomenon is not visible during the visit. No Refund request shall be entertained.</span>
+                <div>
+                  <span className="font-bold text-foreground">1) </span>
+                  <span>Registration amount is non refundable & non transferable in any condition.</span>
                 </div>
+                <div>
+                  <span className="font-bold text-foreground">2) </span>
+                  <span>Registrations will be considered after full payment of the cost and after payment give a confirmation of that on Whatsapp</span>
+                </div>
+                <div>
+                  <span className="font-bold text-foreground">3) </span>
+                  <span>If any natural calamity happens or any accident , death , illness occurs, Zestwanders or organizers are not responsible for any loss in any case.</span>
+                </div>
+                <div>
+                  <span className="font-bold text-foreground">4) </span>
+                  <span>Schedule can be changed and Zestwanders has the sole rights to change schedule without any Prior Notice.</span>
+                </div>
+                <div>
+                  <span className="font-bold text-foreground">5) </span>
+                  <span>None of the amount is transferrable to any other trip or treks & no credit notes will be given.</span>
+                </div>
+                <div>
+                  <span className="font-bold text-foreground">6) </span>
+                  <span>If the Trip is cancelled from our end, Minimal 7% amount will be deducted & for the remaining amount a Credit Note will be Provided to use on any other Treks & Trips (Cash refund wont be provided and cancellation due to reasons not in or control like natural calamity, man made incidents etc or any other reason is not applicable here)</span>
+                </div>
+                <div>
+                  <span className="font-bold text-foreground">7) </span>
+                  <span>Itinerary/Entire location for Trip/Trek/Event is subject to change due to Weather Condition or any other reasons & it is Zestwanders Decision and not liable for any prior notice to participants. We value everyone's safety over the Trip. No refund or Credit shall be provided in such situation.</span>
+                </div>
+                <div>
+                  <span className="font-bold text-foreground">8) </span>
+                  <span>Zestwanders can send back any Participants who is caught doing mischiefs, OR if you're found drinking/smoking or breaking rules of the trek and no refund or credit will be provided.</span>
+                </div>
+                <div>
+                  <span className="font-bold text-foreground">9) </span>
+                  <span>In case of any health issue/injury or any other condition where participant requires special care, Zestwanders will try our best to provide assistance and make necessary arrangements. Although all the expenses incurred will be paid by participant or his/her Family Members.</span>
+                </div>
+                <div>
+                  <span className="font-bold text-foreground">10) </span>
+                  <span>In any other Scenarios other then the above mentioned, Zestwanders has the sole right to alter/Change/Make Decisions. We Value Everyone's Safety over other things.</span>
+                </div>
+                <div>
+                  <span className="font-bold text-foreground">11) </span>
+                  <span>Some participants anticipate receiving a voucher/refund if they descend from a trek for any reason. However, we do not provide vouchers in such cases. This situation arises if your trek leader decides to send you back due to reasons such as insufficient fitness, any other health issues, or injuries. It also applies if you are caught drinking, smoking, or violating trek rules, or if you voluntarily decide to quit the trek for personal reasons.</span>
+                </div>
+                <div>
+                  <span className="font-bold text-foreground">12) </span>
+                  <span>If your entire group is compelled to terminate the trek/event after starting the trip for reasons such as sudden bad weather, trail interruptions, government restrictions, or unforeseen circumstances. Please note that no voucher/refund will be provided in this scenario.</span>
+                </div>
+                <div>
+                  <span className="font-bold text-foreground">13) </span>
+                  <span>The company vehicle will only be responsible for travel from starting point to the locations and back. Any travel beyond that will be chargeable if we are managing it for you all or if there is any unavoidable circumstances like natural calamity, road block, strike or any other reason. Any additional cost in such situations will be beared by participants.</span>
+                </div>
+              </div>
 
-                <div className="pt-2">
-                  <div className="font-bold text-foreground mb-3">Notes:</div>
-                  <div className="space-y-3">
-                    <div>
-                      <span className="text-accent font-bold">1) </span>
-                      <span>We don&apos;t provide Private bus option from Mumbai for this Camping because it nearly takes 6 hours from Mumbai considering the ghat roads & you wont be making the most of this amazing experience.</span>
-                    </div>
-                    <div>
-                      <span className="text-accent font-bold">2) </span>
-                      <span>This is a complete offbeat experience in remote area with very limited resources but we try our best to provide utmost good services but please dont expect any kind of luxury.</span>
-                    </div>
-                    <div>
-                      <span className="text-accent font-bold">3) </span>
-                      <span>Washrooms are available at the Campsite</span>
-                    </div>
-                    <div>
-                      <span className="text-accent font-bold">4) </span>
-                      <span>WhatsApp group will be formed a night before for further communication.</span>
-                    </div>
-                    <div>
-                      <span className="text-accent font-bold">5) </span>
-                      <span>Event schedule is subject to change/delay due to unavoidable circumstances like Vehicle break down, Extreme rush during the Trek, overall group speed and Zestwanders is not responsible for the delay.</span>
-                    </div>
-                    <div>
-                      <span className="text-accent font-bold">6) </span>
-                      <span>Food provided on all local treks are local delicacies prepared by the local villagers in the remote areas of Maharashtra.</span>
-                    </div>
-                    <div>
-                      <span className="text-accent font-bold">7) </span>
-                      <span>If any natural calamity happens or any accident , death , illness occurred Zestwanders or organizers are not responsible for any loss.</span>
-                    </div>
-                    <div>
-                      <span className="text-accent font-bold">8) </span>
-                      <span>Age group is strictly 18-35yrs. If people of above or below that age group register in that case 3% will be charged in refund amount.</span>
-                    </div>
+              <div className="mt-6 pt-6 border-t border-border">
+                <h4 className="text-base sm:text-lg font-bold text-foreground mb-3">Important Notes:</h4>
+                <div className="space-y-3 sm:space-y-4 text-xs sm:text-sm text-muted-foreground">
+                  <div>
+                    <span className="text-accent font-bold">Firefly Sightings: </span>
+                    <span>Experiencing the glow of fireflies is a captivating natural phenomenon. The ideal time to witness this spectacle typically falls between Mid May and the 1st week of June; however, its occurrence is subject to various environmental factors such as climate conditions and rainfall. Please note that Zestwanders cannot guarantee firefly sightings and shall not be held responsible if the phenomenon is not visible during the visit. No Refund request shall be entertained.</span>
                   </div>
-
-                  <div className="pt-4 border-t border-border">
-                    <h4 className="text-base font-bold text-foreground mb-3">Refund & Cancellation Policies</h4>
-                    <div className="space-y-3 sm:space-y-4 text-xs sm:text-sm text-muted-foreground">
-                      <div>
-                        <span className="font-bold text-foreground">1) </span>
-                        <span>Registration amount is non refundable & non transferable in any condition.</span>
-                      </div>
-                      <div>
-                        <span className="font-bold text-foreground">2) </span>
-                        <span>Registrations will be considered after full payment of the cost and after payment give a confirmation of that on Whatsapp</span>
-                      </div>
-                      <div>
-                        <span className="font-bold text-foreground">3) </span>
-                        <span>If any natural calamity happens or any accident , death , illness occurs, Zestwanders or organizers are not responsible for any loss in any case.</span>
-                      </div>
-                      <div>
-                        <span className="font-bold text-foreground">4) </span>
-                        <span>Schedule can be changed and Zestwanders has the sole rights to change schedule without any Prior Notice.</span>
-                      </div>
-                      <div>
-                        <span className="font-bold text-foreground">5) </span>
-                        <span>None of the amount is transferrable to any other trip or treks & no credit notes will be given.</span>
-                      </div>
-                      <div>
-                        <span className="font-bold text-foreground">6) </span>
-                        <span>If the Trip is cancelled from our end, Minimal 7% amount will be deducted & for the remaining amount a Credit Note will be Provided to use on any other Treks & Trips (Cash refund wont be provided and cancellation due to reasons not in or control like natural calamity, man made incidents etc or any other reason is not applicable here)</span>
-                      </div>
-                      <div>
-                        <span className="font-bold text-foreground">7) </span>
-                        <span>Itinerary/Entire location for Trip/Trek/Event is subject to change due to Weather Condition or any other reasons & it is Zestwanders Decision and not liable for any prior notice to participants. We value everyone's safety over the Trip. No refund or Credit shall be provided in such situation.</span>
-                      </div>
-                      <div>
-                        <span className="font-bold text-foreground">8) </span>
-                        <span>Zestwanders can send back any Participants who is caught doing mischiefs, OR if you're found drinking/smoking or breaking rules of the trek and no refund or credit will be provided.</span>
-                      </div>
-                      <div>
-                        <span className="font-bold text-foreground">9) </span>
-                        <span>In case of any health issue/injury or any other condition where participant requires special care, Zestwanders will try our best to provide assistance and make necessary arrangements. Although all the expenses incurred will be paid by participant or his/her Family Members.</span>
-                      </div>
-                      <div>
-                        <span className="font-bold text-foreground">10) </span>
-                        <span>In any other Scenarios other then the above mentioned, Zestwanders has the sole right to alter/Change/Make Decisions. We Value Everyone's Safety over other things.</span>
-                      </div>
-                      <div>
-                        <span className="font-bold text-foreground">11) </span>
-                        <span>Some participants anticipate receiving a voucher/refund if they descend from a trek for any reason. However, we do not provide vouchers in such cases. This situation arises if your trek leader decides to send you back due to reasons such as insufficient fitness, any other health issues, or injuries. It also applies if you are caught drinking, smoking, or violating trek rules, or if you voluntarily decide to quit the trek for personal reasons.</span>
-                      </div>
-                      <div>
-                        <span className="font-bold text-foreground">12) </span>
-                        <span>If your entire group is compelled to terminate the trek/event after starting the trip for reasons such as sudden bad weather, trail interruptions, government restrictions, or unforeseen circumstances. Please note that no voucher/refund will be provided in this scenario.</span>
-                      </div>
-                      <div>
-                        <span className="font-bold text-foreground">13) </span>
-                        <span>The company vehicle will only be responsible for travel from starting point to the locations and back. Any travel beyond that will be chargeable if we are managing it for you all or if there is any unavoidable circumstances like natural calamity, road block, strike or any other reason. Any additional cost in such situations will be beared by participants.</span>
-                      </div>
-                    </div>
+                  <div>
+                    <span className="text-accent font-bold">1) </span>
+                    <span>This is a complete offbeat experience in remote Village with very limited resources, still we try our best to provide utmost good services.</span>
                   </div>
+                  <div>
+                    <span className="text-accent font-bold">2) </span>
+                    <span>Basic Washroom Facilities are provided near to our campsite.</span>
+                  </div>
+                  <div>
+                    <span className="text-accent font-bold">3) </span>
+                    <span>If any natural calamity happens or any accident , death , illness occurred Zestwanders or organizers are not responsible for any loss.</span>
+                  </div>
+                  <div>
+                    <span className="text-accent font-bold">4) </span>
+                    <span>Avoid wearing precious Jewellery while trekking, as Zestwanders won't be responsible for any losses for the same.</span>
+                  </div>
+                  <div>
+                    <span className="text-accent font-bold">5) </span>
+                    <span>Mobile connectivity is limited in the area</span>
+                  </div>
+                  <div>
+                    <span className="text-accent font-bold">6) </span>
+                    <span>Consuming liquor or any kind of Alcoholic substance is prohibited. Carrying any kind of substance that's illegal is not allowed. Smoking is strictly not allowed. Incase anybody is found consuming then Zestwanders has rights to Expell without Refund.</span>
+                  </div>
+                  <div>
+                    <span className="text-accent font-bold">7) </span>
+                    <span>Zestwanders holds the right to make final decisions related to trip location / timing etc. in case of natural calamities / unexpected events for betterment, safety & best experience of participants.</span>
+                  </div>
+                  <div>
+                    <span className="text-accent font-bold">8) </span>
+                    <span>Trek schedule is subject change/delay due to unavoidable circumstances like Vehicle break down, Extreme rush during the Trek, overall group speed and Zestwanders is not responsible for the delay.</span>
+                  </div>
+                  <div>
+                    <span className="text-accent font-bold">9) </span>
+                    <span>Age group is strictly 18-35yrs. If people of above or below that age group register in that case 3% will be charged in refund amount.</span>
                   </div>
                 </div>
               </div>
