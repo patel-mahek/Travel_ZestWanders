@@ -1,9 +1,10 @@
 'use client'
 
-import { MapPin, Users, Calendar, Flame, CheckCircle2, AlertCircle, ChevronDown, ArrowLeft } from 'lucide-react'
-import { useState } from 'react'
-import Link from 'next/link'
+import { AlertCircle, ArrowLeft, Calendar, CheckCircle2, ChevronDown, Flame, MapPin, Users } from 'lucide-react'
+
 import { ContactModal } from '@/components/contact-modal'
+import Link from 'next/link'
+import { useState } from 'react'
 
 export default function TrekDetailsPage() {
   const [expandedSections, setExpandedSections] = useState<{[key: string]: boolean}>({
@@ -49,7 +50,7 @@ export default function TrekDetailsPage() {
               As the monsoon approaches, Mumbai & Pune eagerly anticipates the enchanting Fireflies Festival. These bioluminescent beetles, grace the jungles with their mesmerizing glow. In a captivating dance of light, they communicate their desires, using their luminous display to court potential mates.
             </p>
             
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 mb-8">
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4 mb-8">
               <div className="bg-secondary rounded-lg p-3 sm:p-4 border border-border">
                 <div className="text-xs sm:text-sm text-muted-foreground mb-1">Duration</div>
                 <div className="text-xl sm:text-2xl font-bold text-accent">2 Days</div>
@@ -62,10 +63,7 @@ export default function TrekDetailsPage() {
                 <div className="text-xs sm:text-sm text-muted-foreground mb-1">Location</div>
                 <div className="text-lg sm:text-xl font-bold text-foreground">Panvel - Panvel</div>
               </div>
-              <div className="bg-secondary rounded-lg p-3 sm:p-4 border border-border">
-                <div className="text-xs sm:text-sm text-muted-foreground mb-1">Difficulty</div>
-                <div className="text-lg sm:text-2xl font-bold text-foreground">Moderate</div>
-              </div>
+              {/* Difficulty removed per request */}
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">

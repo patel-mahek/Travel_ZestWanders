@@ -1,9 +1,10 @@
 'use client'
 
-import { MapPin, Users, Calendar, Flame, CheckCircle2, AlertCircle, ChevronDown, ArrowLeft } from 'lucide-react'
-import { useState } from 'react'
-import Link from 'next/link'
+import { AlertCircle, ArrowLeft, Calendar, CheckCircle2, ChevronDown, Flame, MapPin, Users } from 'lucide-react'
+
 import { ContactModal } from '@/components/contact-modal'
+import Link from 'next/link'
+import { useState } from 'react'
 
 export default function TrekDetailsPage() {
   const [expandedSections, setExpandedSections] = useState<{[key: string]: boolean}>({
@@ -49,7 +50,7 @@ export default function TrekDetailsPage() {
               Fireflies camping offers a magical escape into nature, where you can witness thousands of glowing insects light up the night in a breathtaking natural display. Set against the backdrop of serene forests and peaceful surroundings, it&apos;s a unique experience that combines adventure, tranquility, and the wonder of nature&apos;s own light show. Perfect for nature lovers and photographers alike, fireflies camping is a moment of pure enchantment under the stars.
             </p>
             
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 mb-8">
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4 mb-8">
               <div className="bg-secondary rounded-lg p-3 sm:p-4 border border-border">
                 <div className="text-xs sm:text-sm text-muted-foreground mb-1">Duration</div>
                 <div className="text-xl sm:text-2xl font-bold text-accent">2 Days</div>
@@ -62,10 +63,7 @@ export default function TrekDetailsPage() {
                 <div className="text-xs sm:text-sm text-muted-foreground mb-1">Location</div>
                 <div className="text-lg sm:text-xl font-bold text-foreground">Bhandardara</div>
               </div>
-              <div className="bg-secondary rounded-lg p-3 sm:p-4 border border-border">
-                <div className="text-xs sm:text-sm text-muted-foreground mb-1">Difficulty</div>
-                <div className="text-lg sm:text-2xl font-bold text-foreground">Moderate</div>
-              </div>
+              {/* Difficulty removed per request */}
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
@@ -88,12 +86,7 @@ export default function TrekDetailsPage() {
                   </div>
                 </div>
               </div>
-              <div className="bg-card border border-border rounded-lg p-4 flex-1">
-                <div className="text-foreground">
-                  <div className="text-sm font-semibold text-muted-foreground mb-1">Status</div>
-                  <div className="text-lg sm:text-xl font-bold text-accent">Check Availability</div>
-                </div>
-              </div>
+              {/* Status card removed per request */}
             </div>
           </div>
         </div>
