@@ -86,6 +86,64 @@ export default function TrekDetailsPage() {
                   </div>
                 </div>
               </div>
+              <div className="pt-4 border-t border-border">
+                <h4 className="text-base font-bold text-foreground mb-3">Refund & Cancellation :</h4>
+                <div className="space-y-2">
+                  <div>
+                    <span className="text-accent font-bold">1) </span>
+                    <span>Registration amount is non refundable & non transferable in any condition.</span>
+                  </div>
+                  <div>
+                    <span className="text-accent font-bold">2) </span>
+                    <span>Registrations will be considered after full payment of the cost and after payment give a confirmation of that on Whatsapp</span>
+                  </div>
+                  <div>
+                    <span className="text-accent font-bold">3) </span>
+                    <span>If any natural calamity happens or any accident , death , illness occurs, Zestwanders or organizers are not responsible for any loss in any case.</span>
+                  </div>
+                  <div>
+                    <span className="text-accent font-bold">4) </span>
+                    <span>Schedule can be changed and Zestwanders has the sole rights to change schedule without any Prior Notice.  </span>
+                  </div>
+                  <div>
+                    <span className="text-accent font-bold">5) </span>
+                    <span>None of the amount is transferrable to any other trip or treks & no credit notes will be given.</span>
+                  </div>
+                  <div>
+                    <span className="text-accent font-bold">6) </span>
+                    <span>If the Trip is cancelled from our end, Minimal 7% amount will be deducted & for the remaining amount a Credit Note will be Provided to use on any other Treks & Trips (Cash refund wont be provided and cancellation due to reasons not in or control like natural calamity, man made incidents etc or any other reason is not applicable here)</span>
+                  </div>
+                  <div>
+                    <span className="text-accent font-bold">7) </span>
+                    <span>Itinerary/Entire location for Trip/Trek/Event is subject to change due to Weather Condition or any other reasons & it is Zestwanders Decision and not liable for any prior notice to participants. We value everyone’s safety over the Trip. No refund or Credit shall be provided in such situation.  </span>
+                  </div>
+                  <div>
+                    <span className="text-accent font-bold">8) </span>
+                    <span>Zestwanders can send back any Participants who is caught doing mischiefs,  OR if you’re found drinking/smoking or breaking rules of the trek and no refund or credit will be provided.</span>
+                  </div>
+                  <div>
+                    <span className="text-accent font-bold">9) </span>
+                    <span>In case of any health issue/injury or any other condition where participant requires special care, Zestwanders will try our best to provide assistance and make necessary arrangements. Although all the expenses incurred will be paid by participant or his/her Family Members.</span>
+                  </div>
+                  <div>
+                    <span className="text-accent font-bold">10) </span>
+                    <span>In any other Scenarios other then the above mentioned, Zestwanders has the sole right to alter/Change/Make Decisions. We Value Everyone's Safety over other things.</span>
+                  </div>
+                  <div>
+                    <span className="text-accent font-bold">11) </span>
+                    <span>Some participants anticipate receiving a voucher/refund if they descend from a trek for any reason. However, we do not provide vouchers in such cases.
+This situation arises if your trek leader decides to send you back due to reasons such as insufficient fitness, any other health issues, or injuries. It also applies if you are caught drinking, smoking, or violating trek rules, or if you voluntarily decide to quit the trek for personal reasons.</span>
+                  </div>
+                  <div>
+                    <span className="text-accent font-bold">12) </span>
+                    <span>If your entire group is compelled to terminate the trek/event after starting the trip for reasons such as sudden bad weather, trail interruptions, government restrictions, or unforeseen circumstances. Please note that no voucher/refund will be provided in this scenario.</span>
+                  </div>
+                  <div>
+                    <span className="text-accent font-bold">13) </span>
+                    <span>The company vehicle will only be responsible for travel from starting point to the locations and back. Any travel beyond that will be chargeable if we are managing it for you all or if there is any unavoidable circumstances like natural calamity, road block, strike or any other reason. Any additional cost in such situations will be beared by participants.</span>
+                  </div>
+                </div>
+              </div>
               {/* Status card removed per request */}
             </div>
           </div>
