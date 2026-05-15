@@ -40,7 +40,7 @@ export default function TrekDetailsPage() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-b from-card to-secondary text-foreground py-12 sm:py-16">
+      <section className="relative overflow-hidden bg-gradient-to-b from-card to-secondary text-foreground py-12 sm:py-16" style={{backgroundImage: 'url(/fireflies_bg.jpeg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed'}}>
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-3xl">
             <h2 className="text-3xl sm:text-5xl font-bold mb-4 sm:mb-6 leading-tight text-accent">
